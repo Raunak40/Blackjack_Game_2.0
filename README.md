@@ -1,6 +1,6 @@
 # BlackJack
 
-This is a Blackjack game where you can play and win.This project is part of [Scrimba](https://scrimba.com/) tutotials which I improved and updated in my own style. I am movie buff so you will notice a matrix refrence in this project.
+This is a Blackjack game where you can play and win.This project is part of [Scrimba](https://scrimba.com/) tutorials which I improved and updated in my own style. I am movie buff so you will notice a matrix refrence in this project.
 
 ## Table of contents
 
@@ -31,8 +31,8 @@ Users will be able to:
 
 ### Links
 
-- Code URL: [Github](https://github.com/Raunak40/Order_Summary_Component)
-- Live Site URL: [extraordinary-beignet-1b7d8b](https://extraordinary-beignet-1b7d8b.netlify.app)
+- Code URL: [Github](https://github.com/Raunak40/Blackjack_Game_2.0)
+- Live Site URL: [cheery-raindrop-62807c](https://cheery-raindrop-62807c.netlify.app/)
 
 ## My process
 
@@ -57,6 +57,6 @@ I want to make this project a full blown Blackjack game site, so there will be l
 
 ## Author
 
-- Website - [Raunak Raj](https://extraordinary-beignet-1b7d8b.netlify.app)
+- Website - [Raunak Raj](https://cheery-raindrop-62807c.netlify.app)
 - Frontend Mentor - [@Raunak40](https://www.frontendmentor.io/profile/Raunak40)
 - Github - [@Raunak40](https://github.com/Raunak40)
