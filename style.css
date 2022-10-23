@@ -1,0 +1,125 @@
+/* font-family: 'Oswald', sans-serif; */
+/*  */
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Casino;
+    src: url(fonts/casino.3d-regular.ttf);
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    background: url('images/casino-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+main{
+    min-width: 260px;
+    width: 45%;
+    background: url('images/main-bg.jpg') no-repeat;
+    background-size: cover;
+    margin: 8em auto 0;
+    border: 4px solid white;
+    border-radius: 1em;
+}
+
+.heading{
+    font-size: 3em;
+    font-family: Casino;
+    background: linear-gradient(gold , red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+}
+
+.message{
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin:0 .5rem initial;
+}
+
+p{
+    font-size: 1.35em;
+    font-weight: bold;
+}
+
+button{
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin:0 .5em 1em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.start-game-btn{
+    background-color:green;
+}
+
+.new-card-btn{
+    background-color:goldenrod;
+}
+
+.game-restart-btn{
+    display: block;
+    padding: 5px 10px;
+    margin: 0 auto 1em;
+}
+
+.red-btn{
+    height: 2em;
+    width: 4em;
+    background: radial-gradient(ellipse at 50% 50%, rgb(162, 120, 120),rgb(175, 26, 26), rgb(57, 14, 14));
+    box-shadow: 0 5px 10px 3px rgb(45, 9, 9);
+    border: none;
+    border-radius: 47%;
+}
+
+.blue-btn{
+    height: 2em;
+    width: 4em;
+    box-shadow: 0 5px 10px 3px rgb(9, 9, 45);
+    background: radial-gradient(ellipse at 50% 50%, rgb(120, 123, 162),rgb(26, 26, 175), rgb(14, 14, 57));
+    border: none;
+    border-radius: 47%;
+}
+
+.choice{
+    display: block;
+}
+
+.choice-removed{
+    display: none;
+}
+
+.game-started{
+    display: none;
+}
+
+.game-started-added{
+    display: block;
+}
+
+footer{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(121, 99, 72);
+    font-weight: bold;
+}
